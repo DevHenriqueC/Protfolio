@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu Responsivo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    
+        <div class="logo"><a href="#Home">Henrique Couto</a></div>
+
+    <!-- Menu Desktop -->
+        <nav class="menu-desktop">
+            <a href="#Sobre">Sobre</a>
+            <a href="#Projetos">Projetos</a>
+            <a href="#Contatos">Contatos</a>
+        </nav>
+
+    <!-- Menu Mobile Toggle -->
+        <div class="menu-toggle" onclick="toggleMenu()" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+</header>
+
+    <!-- Mobile Menu -->
+        <nav class="menu-mobile" id="menuMobile">
+            <div class="close" onclick="toggleMenu()" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <a href="#Sobre">Sobre</a>
+            <a href="#Projetos">Projetos</a>
+            <a href="#Contatos">Contatos</a>
+        </nav>
+    <section id="Home">
+    <div class="centralizar">
+        <div class="apresentacao">
+            <h1>Bem-vindo ao meu portfólio.</h1>
+            <h3>Sou desenvolvedor especializado em soluções eficientes e escaláveis. Neste espaço, apresento meus principais projetos,  <br>
+            Habilidades técnicas e experiências profissionais. Explore e conheça um pouco mais sobre meu trabalho.</h3>
+        </div>
+    </div>
+    </section>
+
+    <section id="Sobre">
+    <div class="centralizar">
+        <div class="apresentacao">
+        <h1>Sobre mim </h1>
+            <h3>Me chamo Henrique Couto, tenho 20 anos e sou de Minas Gerais. Desde os meus 11 anos sou apaixonado por computadores — foi nessa idade que comecei a me interessar por tecnologia, jogos e tudo que envolve o mundo digital. Hoje, estou cursando Engenharia de Software, e posso dizer que escolhi o caminho certo: unir minha paixão à minha profissão.
+
+                Meu hobby sempre foi jogar e mexer em computadores, desmontar, explorar sistemas, entender como tudo funciona. Esse interesse me ajudou a desenvolver uma mente curiosa, analítica e sempre pronta pra aprender algo novo.
+                
+                Uma curiosidade sobre mim é que, quando eu quero algo, eu vou atrás até conseguir. Sou muito determinado e não desisto fácil. Acredito que com foco e esforço, tudo é possível — e é assim que encaro meus objetivos, tanto na vida pessoal quanto na profissional.</h3>
+        </div>
+    </div>
+    </section>
+
+    <section id="Projetos">
+    <div class="centralizarproj">
+        <div class="apresentacaoproj">
+            <h1>Projetos</h1>
+            <a href="https://github.com/DevHenriqueC/Discord"><button class="botoesproj"><img src="img/Discord.png" alt=""></button></a>
+            <a href="https://github.com/DevHenriqueC/Cha-de-casa-nova"><button class="botoesproj"><img src="img/casa.png" alt=""></button></a>
+            <button class="botoesproj"><img src="img/barra-de-carregamento.png" alt=""></button>
+            <button class="botoesproj"><img src="img/barra-de-carregamento.png" alt=""></button>
+        </div>
+    </div>
+    </section>
+    <section id="Contatos">
+    <div class="centralizarcontato">
+        <div class="apresentacaocontato">
+            <h1>Contatos</h1>
+            <a href="https://www.linkedin.com/in/henrique-couto-b21629160/"><button class="botoesproj"><img src="img/linkedin.png" alt=""></button></a>
+            <a href="https://www.facebook.com/HenriqueCouto220?locale=pt_BR"><button class="botoesproj"><img src="img/facebook.png" alt=""></button></a>
+            <a href="https://www.instagram.com/coutin22/"><button class="botoesproj"><img src="img/instagram.png" alt=""></button></a>
+            <a href="https://github.com/DevHenriqueC"><button class="botoesproj"><img src="img/github.png" alt=""></button></a><br><br>
+            
+            <h1>Se quiser, pode mandar seu e-mail para eu entrar em contato.</h1>
+            <div class="inputs">
+                <form class="formConfirmacao" method="POST" action="https://formsubmit.co/hcouto220@gmail.com">
+                    <h3>Seu nome:</h3>
+                    <input type="text" name="text" id="text"required><br>
+                    <h3>Seu Email:</h3>  
+                    <input type="email" name="Email" id="email"required><br><br><br>
+                    <button class="submit">Enviar</button><br><br><br><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
