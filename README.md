@@ -1,1 +1,1 @@
-Olá esse site foi todo desenvolvido por mim para questoes de estudo e quem sabe ate profissional se quiser pode ver ele funcionando tambem em https://portifoliohenriquec.netlify.app
+Olá! Este site foi totalmente desenvolvido por mim para fins de estudo — e, quem sabe, até para uso profissional. Se quiser, pode vê-lo funcionando também em: https://portifoliohenriquec.netlify.app
